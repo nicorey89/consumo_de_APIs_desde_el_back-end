@@ -12,6 +12,14 @@
     <figure>
         <img src="/img/logo-DH.png" alt="Logo Digital House">
       </figure>
+      <br>
+      <p>
+          <a class="botonVolver" href="/">Inicio</a>
+          <a class="botonVolver" href="/movies/new">Nuevas</a>
+          <a class="botonVolver" href="/movies/recommended">Recomendadas</a>
+          <a class="botonVolver" href="/genres">Generos</a>
+      </p>
+      <br>
     <h1 class="titulo">Película Editada:  <%= Movie.title %></h1>
     <section class="formulario">
         <form action="/movies/update/<%= Movie.id %>?_method=PUT" method="POST">

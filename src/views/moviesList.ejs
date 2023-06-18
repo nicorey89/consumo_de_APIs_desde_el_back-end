@@ -17,8 +17,10 @@
     <br>
     <p>
         <a class="botonAgregar" href="/movies/add">Agregar una Pelicula</a>
-        <a class="botonVolver" href="/">inicio</a>
-
+        <a class="botonVolver" href="/">Inicio</a>
+        <a class="botonVolver" href="/movies/new">Nuevas</a>
+        <a class="botonVolver" href="/movies/recommended">Recomendadas</a>
+        <a class="botonVolver" href="/genres">Generos</a>
     </p>
     <br>
     <div class="buscar-titulo">
@@ -26,7 +28,6 @@
             <input type="text" name="titulo" id="titulo">
             <button class="boton-buscar" type="submit">Buscar una Pelicula</button>
         </form>
-        
     </div>
     <ul>
         <% for( let i = 0; i < movies.length; i++ ) { %>
